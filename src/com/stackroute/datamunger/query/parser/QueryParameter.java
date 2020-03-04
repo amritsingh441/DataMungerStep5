@@ -28,7 +28,10 @@ public class QueryParameter {
 	public void setFile(final String file) {
 		this.file=file;
 	}
-
+	public String getFileName() {
+		return file;
+	}
+	
 	public String getBaseQuery() {
 		return baseQuery;
 	}
